@@ -6,3 +6,7 @@
    Author : xingximing.xxm
    Date : 2021/10/24 9:40 PM 
 """
+
+from util.metric import accuracy, AverageMeter
+
+__all__ = [accuracy, AverageMeter]

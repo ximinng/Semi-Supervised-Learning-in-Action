@@ -4,9 +4,9 @@
    File :  __init__.py.py
    Description : 
    Author : xingximing.xxm
-   Date : 2021/10/24 9:40 PM 
+   Date : 2021/10/24 9:46 PM 
 """
 
-from model.WideResnet import build_WideResNet
+from dataset.randaugment import RandAugmentMC, RandAugmentPC
 
-__all__ = [build_WideResNet]
+___all__ = [RandAugmentMC, RandAugmentPC]
